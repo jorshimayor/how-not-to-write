@@ -56,3 +56,47 @@ Never use the em dash, the long dash. It is one of the loudest tells of machine-
 ## Rule 3: conversational, but never verbose
 
 Warm does not mean long. Say the thing in the fewest words that keep it clear and human, then stop. Cut the throat-clearing openers ("It's worth noting that," "At the end of the day," "In order to"), the doubled phrasings that say one idea twice, and any sentence that just restates the one before it. A quick test: if a sentence can lose a third of its words and still land, it was too long. Warmth comes from word choice and rhythm, not word count. When a conversational tone and brevity pull against each other, keep the tone and cut the length.
+
+## Examples by domain: Web3, AI, ZK and Web2
+
+The same three rules, applied to the developer topics this skill is used for most. The "after" lines show the shape of the fix. Swap in your real facts, and never invent numbers to fill the slot.
+
+### The antithesis cadence in the wild
+
+| Domain | Banned | Plain and specific |
+|---|---|---|
+| Web3 | "This isn't just a token. It's a community." | "Holders vote on treasury spending onchain, and every proposal is public on the governance page." |
+| Web3 | "We're not building a chain. We're building an ecosystem." | "The chain launched with a bridge, a block explorer and three dApps already deployed." |
+| AI | "It's not autocomplete, it's reasoning." | "The model plans the steps in its Thought line, then calls the calculator for each one." |
+| AI | "Not just a chatbot. An agent." | "It reads the ticket, searches the docs, drafts a reply and waits for approval before sending." |
+| ZK | "Not just privacy. Freedom." | "The app proves you're over 18 without sending your birth date to the server." |
+| ZK | "This isn't a proof system, it's a paradigm shift." | "Verifying the proof onchain takes one contract call, whatever the size of the computation behind it." |
+| Web2 | "It's not a framework, it's a philosophy." | "Routing, data fetching and caching follow one set of conventions, so new pages need no config." |
+| Web2 | "Not just faster. Better." | "Pages render on the server, so the first meaningful paint no longer waits for the JavaScript bundle." |
+
+### Em dashes in technical writing
+
+| Before | After |
+|---|---|
+| "Rollups batch transactions — thousands of them — and post them to Ethereum." | "Rollups batch thousands of transactions and post them to Ethereum." |
+| "The model has one weakness — arithmetic." | "The model has one weakness: arithmetic." |
+| "The circuit compiled — but it proved the wrong statement." | "The circuit compiled. It also proved the wrong statement." |
+| "Raise max_connections — carefully — and restart." | "Raise max_connections carefully, then restart the server." |
+| "Gas fees fell 80–95% after the upgrade." | "Gas fees fell by 80% to 95% after the upgrade." |
+
+### Padding in technical writing
+
+| Padded | Tight |
+|---|---|
+| "It's worth noting that, in today's fast-moving Web3 landscape, security is more important than ever." | "Audit the contract before mainnet. Most exploits target bugs a review would have caught." |
+| "In order to basically get started with zero-knowledge proofs, you'll essentially want to first understand circuits." | "Start with circuits: they're how a ZK proof describes what it proves." |
+| "At the end of the day, the context window is, in simple terms, kind of like the model's memory." | "The context window is the model's working memory, measured in tokens." |
+| "Due to the fact that the database has a connection limit, in the event that you exceed it, errors will occur." | "PostgreSQL rejects new connections once it hits max_connections." |
+
+### Domain words that signal hype
+
+Treat these as warnings, not bans. Keep one only when it carries a specific, checkable meaning:
+- **Web3:** revolutionary, trustless (unless it truly has no trust assumptions), "to the moon", next 100x, guaranteed yield.
+- **AI:** understands, thinks, sentient, superhuman, "replaces developers".
+- **ZK:** unbreakable, 100% private, magic, "math-proof".
+- **Web2:** blazing fast, seamless, enterprise-grade, infinitely scalable.

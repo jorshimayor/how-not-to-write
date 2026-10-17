@@ -40,11 +40,16 @@ Claude loads the skill on its own whenever it drafts or edits prose: articles, e
 
 ## Before and after
 
-> **Before:** This wasn't just a product launch. It was a movement. We're not here to compete — we're here to change everything.
->
-> **After:** 4,000 people signed up in the first week, and 60% of them came from referrals. Most were teams leaving spreadsheets for the first time.
+Examples from the topics I write about most:
 
-The second version is shorter on drama and longer on facts. If the launch really mattered, the numbers show it.
+| Domain | Before | After |
+|---|---|---|
+| Web3 | This isn't just a token. It's a community. | Holders vote on treasury spending onchain, and every proposal is public on the governance page. |
+| AI | It's not autocomplete, it's reasoning. | The model plans the steps in its Thought line, then calls the calculator for each one. |
+| ZK | Not just privacy. Freedom. | The app proves you're over 18 without sending your birth date to the server. |
+| Web2 | The page has one bottleneck — the database. | The page has one bottleneck: the database. |
+
+The "after" versions are shorter on drama and longer on facts. If the thing really matters, the details show it. More examples, including padding fixes and hype words to watch in each domain, are at the end of [`SKILL.md`](skills/how-not-to-write/SKILL.md).
 
 ## License
 
